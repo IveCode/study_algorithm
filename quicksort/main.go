@@ -2,17 +2,12 @@ package main
 
 import (
 	"fmt"
-	"math"
 )
 
 func main() {
 	nums := []int{1, 3, 2, 7, 4, 6, 9, 8, 5}
 	quickSort(nums, 0, len(nums)-1)
 	fmt.Println(nums)
-
-	i := 0xFFFFFFFF
-	math.MinInt32
-	fmt.Println(i > math.MaxInt32, int32(i))
 }
 
 func quickSort(nums []int, l, h int) {
