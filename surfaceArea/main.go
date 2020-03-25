@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+//892. 三维形体的表面积 https://leetcode-cn.com/problems/surface-area-of-3d-shapes/
 func main() {
 	fmt.Println(surfaceArea([][]int{[]int{2}}))
 	fmt.Println(surfaceArea([][]int{[]int{1, 2}, []int{3, 4}}))
