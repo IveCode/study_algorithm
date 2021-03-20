@@ -4,7 +4,7 @@ import "fmt"
 
 //八皇后问题 => n*n
 func main() {
-	N := 8
+	N := 4
 	queen := NewQueen(N)
 	queen.DFS(0)
 	fmt.Println("===============")
